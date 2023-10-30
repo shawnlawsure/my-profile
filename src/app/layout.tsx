@@ -15,7 +15,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Shawn Lawsure Professional Profile',
-  description: 'My personal and professional profile.'
+  description: 'My personal and professional profile.',
+  colorScheme: 'only light'
 }
 
 export default function RootLayout({children}: {children: React.ReactNode}) 
