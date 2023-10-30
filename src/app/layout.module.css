@@ -1,0 +1,20 @@
+.header {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
+    flex: 0 0 7.5625rem;    
+}
+
+.link {
+    @apply flex items-center gap-1 whitespace-nowrap py-1 px-2;
+}
+
+.name {
+    @apply px-2;
+}
+
+.name:focus {
+    @apply shadow-outline outline-none;
+}
+
+.link:focus {
+    @apply shadow-outline outline-none;
+}

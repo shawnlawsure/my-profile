@@ -1,0 +1,9 @@
+.menu {
+    @apply border-r-2 border-solid border-gray-border w-14 max-h-full collapse p-4;
+}
+
+@media screen and (max-width: 1023px) {
+    .menu {
+        visibility: visible;
+    }
+}

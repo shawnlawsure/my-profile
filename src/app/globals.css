@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+main {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+html {
+    font-family: "Material Icons Outlined";
+}
+
+.material-icons.md-18 { font-size: 18px; }
+
+h1 {
+    @apply text-xxl font-bold text-primary;
+    font-family: Cambon, serif;
+}
+
+h2 {
+    /*@apply text-xl font-semibold border-b-2 border-b-gray-border;*/
+    @apply text-xl font-semibold text-primary;
+}
+
+h3 {
+    @apply text-lg font-medium border-b-2 border-b-primary text-primary;
+}

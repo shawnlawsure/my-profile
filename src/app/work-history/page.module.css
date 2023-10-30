@@ -1,0 +1,15 @@
+.job {
+    @apply flex flex-col gap-1 bg-wm-light py-1 px-2 rounded-lg border border-primary;
+}
+
+.titleLine {
+    @apply flex justify-between gap-6;
+}
+
+.title {
+    @apply font-bold;
+}
+
+.desc {
+    @apply list-disc list-inside text-base;
+}

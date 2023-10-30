@@ -1,0 +1,11 @@
+.heading {
+    @apply flex flex-col gap-4;
+}
+
+.group {
+    @apply flex gap-4 flex-wrap;
+}
+
+.skill {
+    @apply bg-wm-light py-1 px-2 rounded-lg border border-primary;
+}
