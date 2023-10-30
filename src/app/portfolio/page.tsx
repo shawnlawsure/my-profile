@@ -18,11 +18,11 @@ export default function Page() {
 				<h3>Archived Projects</h3>
                 <ul className={styles.list}>
                     <li className={styles.listItem}>
-						<h4 className={styles.title}>Stamp Collector's Album (Front-end) - React/Redux</h4>
+						<h4 className={styles.title}>Stamp Collector&apos;s Album (Front-end) - React/Redux</h4>
 						<span className={styles.descriptiobn}>The frontend for a SPA written in React and Redux.  The app is intended to be used by stamp collectors to catalog and display their stamp collection. You may find the code for it <a className={styles.link} href='https://github.com/shawnlawsure/stamp' target="_blank">here</a>.</span>
 					</li>
                     <li className={styles.listItem}>
-						<h4 className={styles.title}>Stamp Collector's Album (Back-end) - Node.js/MySQL</h4>
+						<h4 className={styles.title}>Stamp Collector&apos;s Album (Back-end) - Node.js/MySQL</h4>
 						<span className={styles.descriptiobn}>The backend for a SPA using Node.js and MySQL that exposes a REST api. You may find the code for it <a className={styles.link} href='https://github.com/shawnlawsure/stamp-node' target="_blank">here</a>.</span>
 					</li>
                     <li className={styles.listItem}>
