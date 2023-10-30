@@ -14,7 +14,7 @@ import styles from './layout.module.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'My Profile',
+  title: 'Shawn Lawsure Professional Profile',
   description: 'My personal and professional profile.'
 }
 
@@ -27,9 +27,12 @@ export default function RootLayout({children}: {children: React.ReactNode})
                     <header className={`flex gap-5 font-bold bg-white ${styles.header}`}>
                         <NavMenu />
                         <div className='w-full flex flex-col gap-3 items-center py-2 px-2'>
-                            <a href='/' className={styles.name}>
-                                <h1 className='text-center'>Shawn Lawsure</h1>
-                            </a>
+							<div className='flex flex-col items-center text-gray-600'>
+								<a href='/' className={styles.name}>
+									<h1 className='text-center'>Shawn Lawsure</h1>
+								</a>
+								<span className='italic text-base'>Software Developer</span>
+							</div>
                             <div className='flex gap-x-6 gap-y-3 justify-center text-sm font-normal flex-wrap'>
                                 <a
                                     href='http://www.linkedin.com/in/shawnlawsure'

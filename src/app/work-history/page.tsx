@@ -121,6 +121,20 @@ export default function Page() {
                     <li className={styles.job}>
                         <div className={styles.titleLine}>
                             <span className={styles.title}>Senior Software Engineer</span>
+                            <span>Sep 2006 – Feb 2010</span>
+                        </div>
+                        <span>AMS Services, Portland, ME</span>
+                        <ul className={styles.desc}>
+                            <li>Designed and developed custom workflow activities for UI page processing using Microsoft Windows Workflow Foundation.</li>
+                            <li>Developed a Windows Presentation Foundation application to allow clients to create customized web pages from database schema.</li>
+                            <li>Designed and developed XML-based ASP.NET Web services (C#) that access SQL Server and Oracle databases and integrated these services with an existing insurance policy processing client application.</li>
+                            <li>Designed and developed a WPF-based client UI and associated business service that utilizes the above Web services.</li>
+                            <li>Converted ASP.NET Web services to WCF services.</li>
+                        </ul>
+                    </li>
+                    <li className={styles.job}>
+                        <div className={styles.titleLine}>
+                            <span className={styles.title}>Senior Software Engineer</span>
                             <span>May 2002 – Sep 2006</span>
                         </div>
                         <span>Aetna (formerly Broadspire, Inc.), Westbrook, ME</span>

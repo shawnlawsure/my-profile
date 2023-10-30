@@ -47,7 +47,7 @@ export default function Navigation() {
                     </button>
                 </div>
                 <ul className=''>
-                    <NavLink url='/me' title='Me' iconName='mood' />
+                    <NavLink url='/me' title='About Me' iconName='mood' />
                     <NavLink url='/skills' title='Skills' iconName='directions_run' />
                     <NavLink url='/work-history' title='Work History' iconName='work_history' />
                     <NavLink url='/portfolio' title='Portfolio' iconName='folder_special' />
