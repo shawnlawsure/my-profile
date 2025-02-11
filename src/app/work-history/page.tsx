@@ -46,7 +46,7 @@ export default function Page() {
                     <li className={styles.job}>
                         <div className={styles.titleLine}>
                             <span className={styles.title}>Senior Software Developer (Contract)</span>
-                            <span>Feb 2019 – Nov 2019</span>
+                            <span>Feb 2019 – Sep 2020</span>
                         </div>
                         <span>ProSearch, Inc., Portland, ME (Remote)</span>
                         <ul className={styles.desc}>
@@ -56,7 +56,7 @@ export default function Page() {
                     <li className={styles.job}>
                         <div className={styles.titleLine}>
                             <span className={styles.title}>Senior Application and Database Developer</span>
-                            <span>Nov 2017 – Apr 2018</span>
+                            <span>Nov 2017 – Feb 2019</span>
                         </div>
                         <span>Tri-Plus Services, Inc., Portland, ME</span>
                         <ul className={styles.desc}>
@@ -76,7 +76,7 @@ export default function Page() {
                     <li className={styles.job}>
                         <div className={styles.titleLine}>
                             <span className={styles.title}>Application Development Manager/Senior Application Developer</span>
-                            <span>Mar 2010 – Sep 2015</span>
+                            <span>Mar 2010 – Oct 2015</span>
                         </div>
                         <span>Diversified Communications, Portland, ME</span>
                         <ul className={styles.desc}>
